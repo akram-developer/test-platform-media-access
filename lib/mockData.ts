@@ -5,7 +5,7 @@ export const PLANS = [
     description: 'Perfect for short-term usage.',
     price: 9.99,
     duration: '30 Days',
-    features: ['Instant Activation', 'Premium Support', '4K/8K Support', 'Anti-Freeze Technology'],
+    features: ['Instant Activation', 'Premium Support', 'HD Player Compatible', 'Stable Server Connection'],
     popular: false,
   },
   {
@@ -14,7 +14,7 @@ export const PLANS = [
     description: 'Great value for regular users.',
     price: 39.99,
     duration: '180 Days',
-    features: ['Instant Activation', 'Premium Support', '4K/8K Support', 'Anti-Freeze Technology', '1 Month Free'],
+    features: ['Instant Activation', 'Premium Support', 'HD Player Compatible', 'Stable Server Connection', '1 Month Free'],
     popular: true,
   },
   {
@@ -23,7 +23,7 @@ export const PLANS = [
     description: 'Best choice for long-term stability.',
     price: 69.99,
     duration: '365 Days',
-    features: ['Instant Activation', 'VIP Support', '4K/8K Support', 'Anti-Freeze Technology', '2 Months Free'],
+    features: ['Instant Activation', 'VIP Support', 'HD Player Compatible', 'Stable Server Connection', '2 Months Free'],
     popular: false,
   },
 ];

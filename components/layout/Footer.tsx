@@ -12,7 +12,7 @@ export function Footer() {
                             <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">MediaAccess</span>
                         </Link>
                         <p className="mt-4 text-sm text-gray-400 max-w-xs">
-                            Premium media activation services for your favorite players. Instant delivery, secure payments.
+                            Premium media player activation services. Instant delivery, secure payments.
                         </p>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -63,12 +63,19 @@ export function Footer() {
                 </div>
 
                 {/* COMPLIANCE DISCLAIMER */}
-                <div className="mt-8 p-4 bg-slate-900 border border-slate-800 rounded-lg text-xs text-gray-500 text-center">
-                    <p className="font-bold text-gray-400 mb-1">LEGAL DISCLAIMER</p>
-                    <p>
-                        This service provides only activation for a media player. We do not host, sell, or distribute any TV channels, movies, or media content.
-                        Users are responsible for the content they use and must own the required rights.
-                    </p>
+                <div className="mt-8 p-4 bg-slate-900 border border-slate-800 rounded-lg text-xs text-gray-500 text-center space-y-4">
+                    <div>
+                        <p className="font-bold text-gray-400 mb-1">LEGAL DISCLAIMER</p>
+                        <p>
+                            This service provides activation for a media player only. We do not host, sell, or distribute any media content. Users are responsible for their own content and rights.
+                        </p>
+                    </div>
+                    <div className="pt-4 border-t border-slate-800">
+                        <p className="font-bold text-gray-400 mb-1">AVIS JURIDIQUE</p>
+                        <p>
+                            Ce service fournit uniquement l’activation d’un lecteur multimédia. Nous n’hébergeons, ne vendons ni ne distribuons aucun contenu. L’utilisateur est responsable de ses contenus et de ses droits d’usage.
+                        </p>
+                    </div>
                 </div>
             </div>
         </footer>
